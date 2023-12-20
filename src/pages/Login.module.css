@@ -1,0 +1,21 @@
+.container{
+    position: absolute;
+    top:25%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    padding:100px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form>input{
+    margin:5px;
+    padding: 10px;
+    border-radius: 10px;
+}
